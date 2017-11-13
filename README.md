@@ -22,7 +22,11 @@ strength of chess playing programs.  Our results show how it is possible to play
 ity chess only with Value Neural Networks, without having to rely on techniques involving
 lookahead.
 
-It is possible to download my entire thesis from here: http://www.ai.rug.nl/~mwiering/Thesis_Matthia_Sabatelli.pdf
+It is possible to download my entire thesis from here: https://www.researchgate.net/publication/321028267_Learning_to_Play_Chess_with_Minimal_Lookahead_and_Deep_Value_Neural_Networks?_iepl%5BviewId%5D=uAA2hw0VVmpmuYRYfxUSy0PP&_iepl%5BprofilePublicationItemVariant%5D=default&_iepl%5Bcontexts%5D%5B0%5D=prfpi&_iepl%5BtargetEntityId%5D=PB%3A321028267&_iepl%5BinteractionType%5D=publicationTitle
+
+or from here:
+
+http://www.ai.rug.nl/~mwiering/Thesis_Matthia_Sabatelli.pdf
 
 The basic steps that are required to be able to reproduce my results are the following:
 
