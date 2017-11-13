@@ -1,7 +1,7 @@
 import numpy as np
 import time
 
-STORING_PATH = ""	# Where to store the Datasets for the ANNs 
+STORING_PATH = " "	# Where to store the Datasets for the ANNs 
 
 def MakeBitmapDataset():
 
