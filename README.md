@@ -33,4 +33,5 @@ The basic steps that are required to be able to reproduce my results are the fol
 5. Once you have trained the ANNs let them compete agains eachother as shown in ANNsCompetition.py
 
 **Feel free to contact me for any questions or for the weights of the ANNs :)**
-**A paper about my work will be published soon, hence if you want to use my work feel free to do so but please either cite my paper as it will be published (January) or cite directly my Thesis **
+
+Ps: A paper about my work will be published soon, hence if you want to use my work feel free to do so but please either cite my paper as soon as it will be published (January) or cite directly my Thesis 
