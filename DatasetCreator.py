@@ -10,8 +10,8 @@ import chess.uci
 import numpy as np
 import os
 
-GAMES_DIRECTORY = '/home/matthia/Desktop/FinalCode/'	# Directory where the pgn games are saved
-STORING_PATH = '/home/matthia/Desktop/'		# Where to store the games evaluated by Stockfish
+GAMES_DIRECTORY = ''	# Directory where the pgn games are saved
+STORING_PATH = ''		# Where to store the games evaluated by Stockfish
 
 engine = chess.uci.popen_engine('/usr/games/stockfish')	# Be sure to have Stockfish installed
 engine.uci()
