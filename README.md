@@ -26,7 +26,7 @@ It is possible to download my entire thesis from here: http://www.ai.rug.nl/~mwi
 
 The basic steps that are required to be able to reproduce my results are the following:
 
-1. Parse a large set of chess games played by highly ranked players with the pgnsplitter.py script  
+1. Parse a large set of chess games played by highly ranked players that you can download from here http://www.ficsgames.org/download.html with the pgnsplitter.py script  
 2. Label the positions present in the individual games with the evaluation function of Stockfish and create appropriate board representations for the ANNs with the DatasetCreator.py script
 3. Create the different Datasets that are reported in my MSc Thesis with either the BitmapDataset.py script if you want to train a MLP or with the FeatureDataset.py script if you want to train a CNN
 4. Train the ANNs as shown in the ExampleCNN.py class. Check my MSc Thesis for the best set of hyperparameters
