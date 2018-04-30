@@ -74,13 +74,13 @@ def splitter(inputStr, black):
 def is_checked(board):
 
 	if board.is_check() and board.turn is True:
-		CheckedInfo = [-1] * 63
+		CheckedInfo = [-1] * 64
 	
 	elif board.is_check() and board.turn is False:
-		CheckedInfo = [1] * 63
+		CheckedInfo = [1] * 64
 	
 	elif not board.is_check():
-		CheckedInfo = [0] * 63
+		CheckedInfo = [0] * 64
 	
 	return CheckedInfo
 
@@ -161,11 +161,11 @@ def CnnBitmaps(board, e, filename):
 		BlackAttackers = board.attackers(chess.BLACK, ImportantSquare)
 		
 		if len(WhiteAttackers) > len(BlackAttackers):
-			ImportantAttackersFeatures = [1] * 63
+			ImportantAttackersFeatures = [1] * 64
 		elif len(WhiteAttackers) < len(BlackAttackers):
-			ImportantAttackersFeatures = [-1] * 63
+			ImportantAttackersFeatures = [-1] * 64
 		else:
-			ImportantAttackersFeatures = [0] * 63
+			ImportantAttackersFeatures = [0] * 64
 
 	with open(filename, 'a') as thefile:
 
