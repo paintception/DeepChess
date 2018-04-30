@@ -1,30 +1,12 @@
 # DeepChess: **Learning to Play Chess with Minimal Lookahead and Deep Value Neural Networks**
 
-This directory contains the basic scripts that are necessary to reproduce the results of my MSc. Artificial Intelligence Thesis
-entitled: **Learning to Play Chess with Minimal Lookahead and Deep Value Neural Networks**
+This directory contains the basic scripts that are necessary to reproduce the results of my MSc. Artificial Intelligence Thesis entitled: **Learning to Play Chess with Minimal Lookahead and Deep Value Neural Networks**
 
-The game of chess has always been a very important testbed for the Artificial Intelligence
-community. Even though the goal of training a program to play as good as the strongest
-human players is not considered as a hard challenge anymore, so far no work has been done
-in creating a system that does not have to rely on expensive lookahead algorithms to play the
-game at a high level. In this work we show how carefully trained Value Neural Networks are
-able to play high level chess without looking ahead more than one move.
-To achieve this, we have investigated the capabilities that Artificial Neural Networks (ANNs)
-have when it comes to pattern recognition, an ability that distinguishes chess Grandmasters
-from the more amateur players.   We firstly propose a novel training approach specifically
-designed for pursuing the previously mentioned goal.  Secondly, we investigate the perfor-
-mances of both Multilayer Perceptrons (MLPs) and Convolutional Neural Networks (CNNs)
-as optimal neural architecture in chess.  After having assessed the superiority of the first ar-
-chitecture, we propose a novel input representation of the chess board that allows CNNs to
-outperform MLPs for the first time as chess evaluation functions.  We finally investigate the
-performances of our best ANNs on a state of the art test, specifically designed to evaluate the
-strength of chess playing programs.  Our results show how it is possible to play high qual-
-ity chess only with Value Neural Networks, without having to rely on techniques involving
-lookahead.
+A scientific article about my work has been presented in January 2018 at the International Conference on Pattern Recognition Applications and Methods in Madeira, Portugal. The paper can be found here http://www.scitepress.org/PublicationsDetail.aspx?ID=xWk5QRREnQk=&t=1
 
-It is possible to download my entire thesis from here: https://www.researchgate.net/publication/321028267_Learning_to_Play_Chess_with_Minimal_Lookahead_and_Deep_Value_Neural_Networks?_iepl%5BviewId%5D=uAA2hw0VVmpmuYRYfxUSy0PP&_iepl%5BprofilePublicationItemVariant%5D=default&_iepl%5Bcontexts%5D%5B0%5D=prfpi&_iepl%5BtargetEntityId%5D=PB%3A321028267&_iepl%5BinteractionType%5D=publicationTitle
+while it is possible to download my entire thesis from here: https://www.researchgate.net/publication/321028267_Learning_to_Play_Chess_with_Minimal_Lookahead_and_Deep_Value_Neural_Networks
 
-or from here:
+or here:
 
 http://www.ai.rug.nl/~mwiering/Thesis_Matthia_Sabatelli.pdf
 
@@ -37,5 +19,3 @@ The basic steps that are required to be able to reproduce my results are the fol
 5. Once you have trained the ANNs let them compete agains eachother as shown in ANNsCompetition.py
 
 **Feel free to contact me for any questions or for the weights of the ANNs :)**
-
-Ps: A paper about my work will be published soon, hence if you want to use my work feel free to do so but please either cite my paper as soon as it will be published (January) or cite directly my Thesis 
